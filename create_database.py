@@ -1,9 +1,8 @@
 # from langchain.document_loaders import DirectoryLoader
-from langchain_community.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 import os
 import shutil
@@ -14,7 +13,6 @@ os.environ["LANGCHAIN_API_KEY"] = LANGCHAIN_API_KEY
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 
 CHROMA_PATH = "chroma"
-DATA_PATH = r"C:\Users\win10\Desktop\LangchianProject\LangchainProject\data"
 
 
 def main():
@@ -28,7 +26,7 @@ def generate_data_store():
 
 
 def load_documents():
-    loader = DirectoryLoader(DATA_PATH, glob="*.pdf")
+    loader = UnstructuredPDFLoader(r"LangchainProject\data\AWS-lambda-documents.pdf")
     documents = loader.load()
     return documents
 
