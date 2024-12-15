@@ -1,10 +1,15 @@
+keras==2.11.0
+tensorflow>=2.10.0,<3.0.0
 langchain 
 langchain_community
 langchain_huggingface
 python-dotenv
-pytorch
 huggingface_hub 
+onnxruntime==1.17.1
 unstructured[pdf] # Document loading
 chromadb==0.5.0 # Vector storage
 tiktoken==0.7.0  # For embeddings 
-
+tqdm
+python-magic-bin==0.4.14
+torch
+transformers>=4.31.0
