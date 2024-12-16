@@ -7,7 +7,7 @@ I will compare two methods for development LLM application
 ### 2: Retrivel Augmented Generation(RAG) app
 
 # simple qrery-answer app
-This method is helpful when you asking the LLM of a fact or related something that LLM has trained on.
+This method is helpful when you asking the LLM of a fact or related to something that LLM has trained on.
 example: 
 ![image](https://github.com/user-attachments/assets/12d05250-8950-4733-9feb-84bd873f074c)
 
