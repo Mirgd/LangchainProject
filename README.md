@@ -29,7 +29,15 @@ another data example:
 
 using regular LLM:(it just invents an artificial response):
 
+![image](https://github.com/user-attachments/assets/7cc87139-3575-4a47-8c67-dd83510c42f1)
+
+
 using RAG LLM: (the response is related to data actually):
+
+![image](https://github.com/user-attachments/assets/fdaf1bdf-1931-4d2e-b403-774a502cd510)
+![image](https://github.com/user-attachments/assets/0cb0dfcc-3c16-441d-a480-c59bfe1787a9)
+
+
 
 
 
