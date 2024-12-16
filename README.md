@@ -9,6 +9,7 @@ I will compare two methods for development LLM application
 # simple qrery-answer app
 This method is helpful when you asking the LLM of a fact or related to something that LLM has trained on.
 example: 
+
 ![image](https://github.com/user-attachments/assets/12d05250-8950-4733-9feb-84bd873f074c)
 
 # RAG app
@@ -23,7 +24,7 @@ using regular LLM:(it just invents an artificial response):
 using RAG LLM: (the response is related to data actually):
 ![image](https://github.com/user-attachments/assets/0e30baba-a11d-4873-87ac-4b38ba1ff9e1)
 
-another data example:
+##another data example:
 
 ![image](https://github.com/user-attachments/assets/c238c2e3-6ed6-4a05-8750-da1acba0289d)
 
