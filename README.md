@@ -14,6 +14,7 @@ example:
 # RAG app
 This mehtod is using Retrivel Augmented Generation(RAG) technique to fetch information from your data. Tt can be thought as a costomized LLM trained on your data.
 example data:
+
 ![image](https://github.com/user-attachments/assets/46735dc3-acb4-4860-9046-ec24674e57b2)
 
 using regular LLM:(it just invents an artificial response):
@@ -21,6 +22,15 @@ using regular LLM:(it just invents an artificial response):
 
 using RAG LLM: (the response is related to data actually):
 ![image](https://github.com/user-attachments/assets/0e30baba-a11d-4873-87ac-4b38ba1ff9e1)
+
+another data example:
+
+![image](https://github.com/user-attachments/assets/c238c2e3-6ed6-4a05-8750-da1acba0289d)
+
+using regular LLM:(it just invents an artificial response):
+
+using RAG LLM: (the response is related to data actually):
+
 
 
 
