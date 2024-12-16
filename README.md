@@ -1,1 +1,28 @@
 # LangchainProject
+This is a prject for using Langchain as a framework for development LLM application and Hugging Face models as the LLM
+
+# overview 
+I will compare two methods for development LLM application 
+### 1: simple qrery-answer app
+### 2: Retrivel Augmented Generation(RAG) app
+
+# simple qrery-answer app
+This method is helpful when you asking the LLM of a fact or related something that LLM has trained on.
+example: 
+![image](https://github.com/user-attachments/assets/12d05250-8950-4733-9feb-84bd873f074c)
+
+# RAG app
+This mehtod is using Retrivel Augmented Generation(RAG) technique to fetch information from your data. Tt can be thought as a costomized LLM trained on your data.
+example data:
+![image](https://github.com/user-attachments/assets/46735dc3-acb4-4860-9046-ec24674e57b2)
+
+using regular LLM:(it just invents an artificial response):
+![image](https://github.com/user-attachments/assets/60c36815-4cea-44b1-9bf7-51163805ab86)
+
+using RAG LLM: (the response is related to data actually):
+![image](https://github.com/user-attachments/assets/0e30baba-a11d-4873-87ac-4b38ba1ff9e1)
+
+
+
+
+
