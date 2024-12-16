@@ -24,7 +24,7 @@ using regular LLM:(it just invents an artificial response):
 using RAG LLM: (the response is related to data actually):
 ![image](https://github.com/user-attachments/assets/0e30baba-a11d-4873-87ac-4b38ba1ff9e1)
 
-##another data example:
+### another data example:
 
 ![image](https://github.com/user-attachments/assets/c238c2e3-6ed6-4a05-8750-da1acba0289d)
 
