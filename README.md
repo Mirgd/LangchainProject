@@ -1,7 +1,11 @@
 # LangchainProject
 This is a prject for using Langchain as a framework for development LLM application and Hugging Face models as the LLM
 
-# overview 
+# Table of content 
+### 1-Overview 
+### 2-How to run this project? 
+
+# 1-Overview 
 I will compare two methods for development LLM application 
 ### 1: simple qrery-answer app
 ### 2: Retrivel Augmented Generation(RAG) app
@@ -37,6 +41,22 @@ using RAG LLM: (the response is related to data actually):
 
 ![image](https://github.com/user-attachments/assets/fdaf1bdf-1931-4d2e-b403-774a502cd510)
 ![image](https://github.com/user-attachments/assets/0cb0dfcc-3c16-441d-a480-c59bfe1787a9)
+
+# 2-How to run this project?
+
+### 1- clone this repository  
+
+### 2- create a virtual invironment and activate it 
+
+### 3- fill the keys.py with actual keys by create an account in both:
+- LangSmith https://smith.langchain.com/ (from settings)
+- Hugging Face https://huggingface.co/ (from Access tokens)
+
+### 4- run --> pip install -r requirements.txt
+
+- to run the jupyter notebook: pip install notebook jupyter and choose the virtual environment as the kernal
+- to run RAG_app.py: python RAG_app.py
+- to run web_RAG.py: streamlit run web_RAG.py
 
 
 
