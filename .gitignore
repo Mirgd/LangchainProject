@@ -1,4 +1,4 @@
-keys.py
 .ipynb_checkpoints/
 __pycache__/
-.venv/
+clean_venv
+keys.py
