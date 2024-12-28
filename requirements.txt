@@ -1,6 +1,7 @@
+python-magic-bin
+onnx==1.16.1
 streamlit
-keras
-tensorflow
+tf-keras
 langchain 
 langchain_community
 langchain_huggingface
