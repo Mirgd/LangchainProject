@@ -47,7 +47,7 @@ using RAG LLM: (the response is related to data actually):
 ### 1- clone this repository  
 
 ### 2- create a virtual environment and activate it 
-- chromadb dependency: on Mac use `conda install onnxruntime -c conda-forge` For Windows users, install Microsoft Visual C++ Build Tools first, simply using this command:` winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended" `
+- after that, insure chromadb dependency: on Mac use `conda install onnxruntime -c conda-forge` For Windows users, install Microsoft Visual C++ Build Tools first, simply using this command:` winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended" `
 
 ### 3- fill the keys.py with actual keys by create an account in both:
 - LangSmith https://smith.langchain.com/ (from settings)
