@@ -4,6 +4,7 @@ This is a prject for using Langchain as a framework for development LLM applicat
 # Table of content 
 ### 1-Overview 
 ### 2-How to run this project? 
+### 3-Website interface 
 
 # 1-Overview 
 I will compare two methods for development LLM application 
@@ -58,6 +59,16 @@ using RAG LLM: (the response is related to data actually):
 - to run the jupyter notebook: pip install notebook jupyter and choose the virtual environment as the kernal
 - to run RAG_app.py: python RAG_app.py
 - to run web_RAG.py: streamlit run web_RAG.py
+
+# 3- Website interface
+![alt text](images/image.png)
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
+![alt text](images/image-3.png)
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)
+
+
 
 
 
